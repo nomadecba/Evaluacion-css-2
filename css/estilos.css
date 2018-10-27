@@ -1,22 +1,20 @@
 body {
 width: 100%;
 background-color: #02010a;
-display: flex;
 }
 
 #cabecera {
-  width: 99%;
+  width: 44%;
   height: 70px;
   background-color: #5b7989;
-  border-radius: 0 0 10px 10px;
-  margin-right: auto;
-  margin-left: auto;
+  border-radius:10px 10px 0 0;
+  right: 28%;
   position: fixed;
   top: 0;
   clear: both;
 }
 
-#cabecera h1 {
+#cabecera h3 {
     color: white;
     font-family: 'Dancing Script', cursive;
     font-style: oblique;
@@ -38,19 +36,20 @@ display: flex;
 }
 
 #contenido figure {
-  width:600px;
+  width:44%;
   height: 450px;
   background-color: #82c3a6;
   margin-top: 70px;
   position: absolute;
   top: 0;
-  right: 25%;
+  left: 25%;
+  display: inline;
 }
 
 #contenido img {
   height: 80%;
   height: 400px;
-  position: absolute;
+  position: relative;
   top: 5%;
   left: 5%;
   border: 2px solid black;
@@ -58,12 +57,80 @@ display: flex;
   box-shadow: 2px 2px 2px  #02010a;
 }
 
+#contenido2 {
+  width:44%;
+  height: 280px;
+  background-color: #d5c75f;
+  margin-top: 520px;
+  position: absolute;
+  top: 0;
+  left: 28%;
+  display: flex;
+}
+
+.img1 img{
+  width: 110%;
+  margin-top: 2vh;
+  border: 2px solid black;
+  float: left;
+  box-shadow: 2px 2px 2px  #02010a;
+}
+
+#contenido2 a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  font-style: oblique;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px #02010a;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.img2 img{
+  width: 110%;
+  margin-top: 2vh;
+  border: 2px solid black;
+  float: right;
+  box-shadow: 2px 2px 2px  #02010a;
+}
+
+.img2 img:hover{
+  transform: translateY(5px);
+  transform: translateX(20px);
+  box-shadow: 2px 2px 2px #82c3a6;
+  border: none;}
+
+  .img1 img:hover{
+    transform: rotate(10deg);
+    border: none;
+    box-shadow: 2px 2px 2px #82c3a6;
+  }
+
 footer {
-  clear: both;
-  width: 99%;
+  width: 44%;
   height: 100px;
-  position: fixed;
-  bottom: 0;
-  background-color: blue;
-  border-radius: 10px 10px 0 0;
+  margin-top: 770px;
+  margin-left: 27.5%;
+  position: relative;
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+}
+
+footer {
+  font-family: 'Dancing Script', cursive;
+  font-style: oblique;
+}
+
+ul li {
+  font-family: 'Dancing Script', cursive;
+  font-style: oblique;
+  color: #FFFFFF;
+}
+
+ul a {
+  font-family: 'Dancing Script', cursive;
+  font-style: oblique;
+  color: white;
+  font-display: 
 }
