@@ -122,15 +122,16 @@ footer {
   font-style: oblique;
 }
 
-ul li {
+.pie1 li {
   font-family: 'Dancing Script', cursive;
   font-style: oblique;
   color: #FFFFFF;
+  type: none;
 }
 
-ul a {
+.pie1 a {
   font-family: 'Dancing Script', cursive;
   font-style: oblique;
   color: white;
-  font-display: 
+  text-decoration: none;
 }
