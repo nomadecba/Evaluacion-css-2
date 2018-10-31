@@ -135,3 +135,20 @@ footer {
   color: white;
   text-decoration: none;
 }
+
+.pie2 li {
+  font-family: 'Dancing Script', cursive;
+  font-style: oblique;
+  color: #FFFFFF;
+  type: none;
+}
+
+.pie2 {
+  font-family: 'Dancing Script', cursive;
+  font-style: oblique;
+  color: #FFFFFF;
+}
+
+footer ul{
+  display: inline;
+}
