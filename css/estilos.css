@@ -107,48 +107,9 @@ background-color: #02010a;
     box-shadow: 2px 2px 2px #82c3a6;
   }
 
-footer {
-  width: 44%;
-  height: 100px;
-  margin-top: 770px;
-  margin-left: 27.5%;
-  position: relative;
-  background-color: #C6d5c5;
-  border-radius: 0 0 10px 10px;
-}
-
-footer {
-  font-family: 'Dancing Script', cursive;
-  font-style: oblique;
-}
-
-.pie1 li {
-  font-family: 'Dancing Script', cursive;
-  font-style: oblique;
-  color: #FFFFFF;
-  type: none;
-}
-
-.pie1 a {
-  font-family: 'Dancing Script', cursive;
-  font-style: oblique;
-  color: white;
-  text-decoration: none;
-}
-
-.pie2 li {
-  font-family: 'Dancing Script', cursive;
-  font-style: oblique;
-  color: #FFFFFF;
-  type: none;
-}
-
-.pie2 {
-  font-family: 'Dancing Script', cursive;
-  font-style: oblique;
-  color: #FFFFFF;
-}
-
-footer ul{
-  display: inline;
-}
+  -*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Dancing Script;
+  }
