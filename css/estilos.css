@@ -4,11 +4,11 @@ background-color: #02010a;
 }
 
 #cabecera {
-  width: 44%;
+  width: 60%;
   height: 70px;
   background-color: #5b7989;
   border-radius:10px 10px 0 0;
-  right: 28%;
+  left: 28%;
   position: fixed;
   top: 0;
   clear: both;
@@ -36,7 +36,7 @@ background-color: #02010a;
 }
 
 #contenido figure {
-  width:44%;
+  width:60%;
   height: 450px;
   background-color: #82c3a6;
   margin-top: 70px;
@@ -58,8 +58,8 @@ background-color: #02010a;
 }
 
 #contenido2 {
-  width:44%;
-  height: 280px;
+  width:60%;
+  height: 380px;
   background-color: #d5c75f;
   margin-top: 520px;
   position: absolute;
@@ -113,3 +113,20 @@ background-color: #02010a;
     box-sizing: border-box;
     font-family: Dancing Script;
   }
+
+ .row {
+   width: 1px;
+ }
+
+ footer  {
+   width:60%;
+   height: 280px;
+   background-color: #C6d5c5;
+   margin-top: 900px;
+   position: absolute;
+   top: 0;
+   left: 28%;
+   display: flex;
+
+
+ }
