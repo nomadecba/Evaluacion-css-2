@@ -129,6 +129,13 @@ background-color: #02010a;
  }
 
  .colum1 {
+   font-family: 'Dancing Script', cursive;
    font-size: 8px;
    display: flex;
+   margin: 2px;
  }
+
+ .colum1 p {
+  font-size: 8px;
+  font-family: 'Dancing Script', cursive;
+}
