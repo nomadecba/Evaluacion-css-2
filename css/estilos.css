@@ -9,7 +9,7 @@ background-color: #02010a;
   background-color: #5b7989;
   border-radius:10px 10px 0 0;
   left: 28%;
-  position: fixed;
+  position: absolute;
   top: 0;
   clear: both;
 }
@@ -128,14 +128,50 @@ background-color: #02010a;
    display: flex;
  }
 
- .colum1 {
+ footer {
+   width: 60%;
+   max-width: 476,391px;
+   color: black;
    font-family: 'Dancing Script', cursive;
-   font-size: 8px;
-   display: flex;
-   margin: 2px;
+   font-size: 14px;
  }
 
- .colum1 p {
-  font-size: 8px;
-  font-family: 'Dancing Script', cursive;
-}
+ .container-body {
+   display: flex;
+   margin-left: 10px;
+   padding: 2px;
+ }
+
+ .colum1 {
+   margin-left: auto;
+    max-width: 200px;
+ }
+
+ .colum1 a {
+   color: black;
+   text-decoration: none;
+  font-size: 14px;
+ }
+
+ .colum2{
+   max-width: 200px;
+ }
+
+ .row {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   margin: 0px;
+ }
+
+ .row label {
+   margin-top: 5px;
+ }
+
+ .colum3 {
+   max-width: 200px;
+ }
+
+ .colum4 {
+   max-width: 200px;
+ }
