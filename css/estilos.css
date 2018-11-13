@@ -1,6 +1,6 @@
 body {
-width: 100%;
-background-color: #02010a;
+  width: 100%;
+  background-color: #02010a;
 }
 
 #cabecera {
@@ -20,7 +20,9 @@ background-color: #02010a;
     font-style: oblique;
     text-shadow: 2px 2px 2px #02010a;
     float: left;
-    margin-left: 1em;
+    margin: auto;
+    font-size: 30px;
+    padding: 5px;
 }
 
  #cabecera a {
@@ -113,8 +115,11 @@ background-color: #02010a;
     font-family: Dancing Script;
   }
 
- .row {
+ .row a {
    width: 1px;
+   display: flex;
+   text-decoration: none;
+
  }
 
  footer  {
@@ -130,6 +135,7 @@ background-color: #02010a;
 
  footer {
    width: 60%;
+   height: 200px;
    max-width: 476,391px;
    color: black;
    font-family: 'Dancing Script', cursive;
@@ -144,17 +150,19 @@ background-color: #02010a;
 
  .colum1 {
    margin-left: auto;
-    max-width: 200px;
+   width: 150px;
  }
 
  .colum1 a {
    color: black;
    text-decoration: none;
-  font-size: 14px;
+   font-size: 14px;
  }
 
  .colum2{
-   max-width: 200px;
+   color: black;
+   width: 150px;
+   margin-left: 5px;
  }
 
  .row {
@@ -169,9 +177,15 @@ background-color: #02010a;
  }
 
  .colum3 {
-   max-width: 200px;
+   text-decoration: none;
+   color: black;
+   width: 150px;
+   margin-left: 5px;
  }
 
  .colum4 {
-   max-width: 200px;
+   text-decoration: none;
+   color: black;
+   width: 150px;
+   margin-left: 5px;
  }
