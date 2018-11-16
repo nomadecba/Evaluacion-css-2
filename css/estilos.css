@@ -4,7 +4,7 @@ body {
 }
 
 #cabecera {
-  width: 60%;
+  width: 70%;
   height: 70px;
   background-color: #5b7989;
   border-radius:10px 10px 0 0;
@@ -136,7 +136,6 @@ body {
  footer {
    width: 60%;
    height: 200px;
-   max-width: 476,391px;
    color: black;
    font-family: 'Dancing Script', cursive;
    font-size: 14px;
@@ -150,7 +149,7 @@ body {
 
  .colum1 {
    margin-left: auto;
-   width: 150px;
+   width: 30%;
  }
 
  .colum1 a {
@@ -161,7 +160,7 @@ body {
 
  .colum2{
    color: black;
-   width: 150px;
+   width: 30%;
    margin-left: 5px;
  }
 
@@ -172,20 +171,19 @@ body {
    margin: 0px;
  }
 
- .row label {
+ .colum2 label {
    margin-top: 5px;
  }
 
  .colum3 {
-   text-decoration: none;
-   color: black;
-   width: 150px;
+   width: 100%;
    margin-left: 5px;
+   color: black;
  }
 
  .colum4 {
-   text-decoration: none;
-   color: black;
-   width: 150px;
+   width: 20%;
    margin-left: 5px;
+   color: black;
+   text-decoration: none;
  }
