@@ -4,7 +4,7 @@ body {
 }
 
 #cabecera {
-  width: 70%;
+  width: 60%;
   height: 70px;
   background-color: #5b7989;
   border-radius:10px 10px 0 0;
@@ -115,14 +115,8 @@ body {
     font-family: Dancing Script;
   }
 
- .row a {
-   width: 1px;
-   display: flex;
-   text-decoration: none;
 
- }
-
- footer  {
+ footer {
    width:60%;
    height: 280px;
    background-color: #C6d5c5;
@@ -134,8 +128,6 @@ body {
  }
 
  footer {
-   width: 60%;
-   height: 200px;
    color: black;
    font-family: 'Dancing Script', cursive;
    font-size: 14px;
@@ -149,7 +141,8 @@ body {
 
  .colum1 {
    margin-left: auto;
-   width: 30%;
+   width: 40%;
+
  }
 
  .colum1 a {
@@ -160,30 +153,21 @@ body {
 
  .colum2{
    color: black;
-   width: 30%;
-   margin-left: 5px;
- }
-
- .row {
-   width: 40px;
-   height: 40px;
-   display: flex;
-   margin: 0px;
- }
-
- .colum2 label {
-   margin-top: 5px;
+   width: 60%;
+   margin-left: 0px;
  }
 
  .colum3 {
-   width: 100%;
-   margin-left: 5px;
+   width: 50%;
+   margin-left: 0px;
    color: black;
+   text-decoration: none;
  }
 
  .colum4 {
-   width: 20%;
+   width: 40%;
    margin-left: 5px;
    color: black;
    text-decoration: none;
+   margin-left: 5px;
  }
