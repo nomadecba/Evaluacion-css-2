@@ -153,8 +153,22 @@ body {
 
  .colum2{
    color: black;
-   width: 60%;
+   width: 40%;
    margin-left: 0px;
+ }
+
+ .row {
+   display: flex;
+   height: 15%;
+   margin-top: 15px;
+   text-decoration: none;
+   color: black;
+ }
+
+ .row a {
+   margin-top: 10px;
+   text-decoration: none;
+   color: black;
  }
 
  .colum3 {
