@@ -5,13 +5,12 @@ body {
 
 #cabecera {
   width: 60%;
-  height: 70px;
+  height: 90px;
   background-color: #5b7989;
   border-radius:10px 10px 0 0;
-  left: 28%;
-  position: absolute;
+  left: 20%;
   top: 0;
-  clear: both;
+  position: absolute;
 }
 
 #cabecera h3 {
@@ -24,27 +23,34 @@ body {
     font-size: 30px;
     padding: 5px;
 }
+ .links {
+   width: 30%;
+   height: 25px;
+   display: flex;
+ }
+
 
  #cabecera a {
+  width: 100%;
+  float: right;
   color: white;
   text-decoration: none;
   font-family: 'Dancing Script', cursive;
   font-style: oblique;
   font-size: 20px;
   text-shadow: 2px 2px 2px #02010a;
-  float: right;
-  margin-right: 2em;
-  margin-top: 2em;
+  margin-right: 2px;
+  margin-top: 50px;
 }
 
 #contenido {
   width:60%;
   height: 450px;
   background-color: #82c3a6;
-  margin-top: 70px;
+  margin-top: 90px;
   position: absolute;
   top: 0;
-  left: 28%;
+  left: 20%;
   display: inline;
 }
 
@@ -65,7 +71,7 @@ body {
   margin-top: 520px;
   position: absolute;
   top: 0;
-  left: 28%;
+  left: 20%;
   display: flex;
 }
 
@@ -123,7 +129,7 @@ body {
    margin-top: 900px;
    position: absolute;
    top: 0;
-   left: 28%;
+   left: 20%;
    display: flex;
  }
 
